@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATHENA Eng.Lab - Arquivos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2048px-React-icon.svg.png" alt="Logo ATHENA" />
+    <h1>ATHENA Eng.Lab</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="arquivos.html">Arquivos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+    <main style="margin-top: 100px;">
+
+    <div style="display: flex; flex-wrap: nowrap; gap: 40px; justify-content: center; margin-top: 60px;"> 
+        <div style="flex: 1 1 400px; max-width: 600px; border: 2px solid #005599; border-radius: 12px; padding: 20px;">
+            <ul style="list-style: none; padding-left: 0; max-width: 600px;">
+                <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">Disciplinas</h3>
+                <a href="termo_fundamentos.html" style="text-decoration: none; color: inherit;">
+                <li style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;"
+                    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <strong>Fundamentos da Termodinâmica</strong>
+                </li>
+                </a>
+            
+                <a href="termo_aplicada.html" style="text-decoration: none; color: inherit;">
+                <li style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;"
+                    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <strong>Termodinâmica Aplicada</strong>
+                </li>
+                </a>
+            
+                <a href="termo_calor.html" style="text-decoration: none; color: inherit;">
+                <li style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;"
+                    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <strong>Transmissão de Calor</strong>
+                </li>
+                </a>
+            
+                <a href="termo_lab.html" style="text-decoration: none; color: inherit;">
+                <li style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;"
+                    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <strong>Laboratório em Ciências Térmicas</strong>
+                </li>
+                </a>
+            
+                <a href="termo_sistemas.html" style="text-decoration: none; color: inherit;">
+                <li style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;"
+                    onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    <strong>Análise Integrada de Sistemas Térmicos</strong>
+                </li>
+                </a>
+            
+            </ul>
+        </div>  
+    
+        <!-- Bloco Projetos -->
+        <div style="flex: 1 1 400px; max-width: 600px; border: 2px solid #005599; border-radius: 12px; padding: 20px; position: relative;">
+            <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">Projetos</h3>
+            <div style="overflow: hidden; width: 100%; height: 250px; border-radius: 8px; position: relative;">
+              <div id="carousel" style="display: flex; transition: transform 0.5s ease; width: 300%; height: 250px;">
+                <img src="air-flow.png" style="width: 100%; object-fit: contain; padding: 10px;" />
+                <img src="thermodynamics.png" style="width: 100%; object-fit: contain; padding: 10px;" />
+                <img src="" style="width: 100%; object-fit: cover;" />
+              </div>
+              <div id="dots" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
+                <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;"></span>
+                <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;"></span>
+                <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <script>
+          const carousel = document.getElementById('carousel');
+          const dots = document.querySelectorAll('.dot');
+          let index = 0;
+          setInterval(() => {
+            index = (index + 1) % 3;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+            dots.forEach((dot, i) => {
+              dot.style.background = i === index ? '#005599' : '#ccc';
+              dot.style.width = i === index ? '14px' : '10px';
+            });
+          }, 4000);
+        </script>
+    </div>
+
+  </main>
