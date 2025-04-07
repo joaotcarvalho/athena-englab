@@ -1,98 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   ATHENA Eng.Lab - Arquivos
-  </title>
-  <link href="style.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <img alt="Logo ATHENA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2048px-React-icon.svg.png"/>
-   <h1>
-    ATHENA Eng.Lab
-   </h1>
-  </header>
-  <nav>
-   <a href="index.html">
-    Homepage
-   </a>
-   <a href="arquivos.html">
-    Arquivos
-   </a>
-   <a href="contato.html">
-    Contato
-   </a>
-  </nav>
-  <main style="margin-top: 100px;">
-   <div style="display: flex; flex-wrap: nowrap; gap: 40px; justify-content: center; margin-top: 60px;">
-    <div style="flex: 1 1 400px; max-width: 600px; border: 2px solid #005599; border-radius: 12px; padding: 20px;">
-     <ul style="list-style: none; padding-left: 0; max-width: 600px;">
-      <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">
-       Disciplinas
-      </h3>
-      <a href="termo_fundamentos.html" style="text-decoration: none; color: inherit;">
-       <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-        <strong>
-         Fundamentos da Termodin&acirc;mica
-        </strong>
-       </li>
-      </a>
-      <a href="termo_aplicada.html" style="text-decoration: none; color: inherit;">
-       <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-        <strong>
-         Termodin&acirc;mica Aplicada
-        </strong>
-       </li>
-      </a>
-      <a href="termo_calor.html" style="text-decoration: none; color: inherit;">
-       <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-        <strong>
-         Transmiss&atilde;o de Calor
-        </strong>
-       </li>
-      </a>
-      <a href="termo_lab.html" style="text-decoration: none; color: inherit;">
-       <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-        <strong>
-         Laborat&oacute;rio em Ci&ecirc;ncias T&eacute;rmicas
-        </strong>
-       </li>
-      </a>
-      <a href="termo_sistemas.html" style="text-decoration: none; color: inherit;">
-       <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
-        <strong>
-         An&aacute;lise Integrada de Sistemas T&eacute;rmicos
-        </strong>
-       </li>
-      </a>
-     </ul>
-    </div>
-    <!-- Bloco Projetos -->
-    <div style="flex: 1 1 400px; max-width: 600px; border: 2px solid #005599; border-radius: 12px; padding: 20px; position: relative;">
-     <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">
-      Projetos
-     </h3>
-     <div style="overflow: hidden; width: 100%; height: 250px; border-radius: 8px; position: relative;">
-      <div id="carousel" style="display: flex; transition: transform 0.5s ease; width: 100%; height: 250px;">
-       <img src="air-flow.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
-       <img src="thermodynamics.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
-       <img src="entropy.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
-      </div>
-      <div id="dots" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
-       <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
-       </span>
-       <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
-       </span>
-       <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
-       </span>
-      </div>
-     </div>
-    </div>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+        ATHENA Eng.Lab - Arquivos
+    </title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+    <header>
+        <img alt="Logo ATHENA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2048px-React-icon.svg.png"/>
+            <h1>
+                ATHENA Eng.Lab
+            </h1>
+    </header>
+    <nav>
+        <a href="index.html">
+            Homepage
+        </a>
+        <a href="arquivos.html">
+            Arquivos
+        </a>
+        <a href="contato.html">
+            Contato
+        </a>
+    </nav>
+  
+  
+<main style="margin-top: 100px;">
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin-top: 30px; margin-bottom: 30px;">
+        
+        <!-- Bloco Disciplinas -->
+        <div style="flex: 1 1 100%; max-width: 600px; border: 8px solid #005599; border-radius: 12px; padding: 20px;">
+            <ul style="list-style: none; padding-left: 0; max-width: 600px;">
+                <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">
+                    Disciplinas
+                </h3>
+                <a href="termo_fundamentos.html" style="text-decoration: none; color: inherit;">
+                    <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
+                        <strong>
+                            Fundamentos da Termodin&acirc;mica
+                        </strong>
+                    </li>
+                </a>        
+                <a href="termo_aplicada.html" style="text-decoration: none; color: inherit;">
+                    <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
+                        <strong>
+                            Termodin&acirc;mica Aplicada
+                        </strong>
+                    </li>
+                </a>
+                <a href="termo_calor.html" style="text-decoration: none; color: inherit;">
+                    <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
+                        <strong>
+                            Transmiss&atilde;o de Calor
+                        </strong>
+                    </li>
+                </a>
+                <a href="termo_lab.html" style="text-decoration: none; color: inherit;">
+                    <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
+                        <strong>
+                            Laborat&oacute;rio em Ci&ecirc;ncias T&eacute;rmicas
+                        </strong>
+                    </li>
+                </a>
+                <a href="termo_sistemas.html" style="text-decoration: none; color: inherit;">
+                    <li onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'" style="background-color: #f0f7ff; border-left: 5px solid #005599; padding: 12px 20px; margin-bottom: 15px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer;">
+                        <strong>
+                            An&aacute;lise Integrada de Sistemas T&eacute;rmicos
+                        </strong>
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Bloco Projetos -->
+        <div style="flex: 1 1 100%; max-width: 600px; border: 8px solid #005599; border-radius: 12px; padding: 20px;">
+            <h3 style="color: #005599; text-align: center; font-size: 1.4rem; margin-bottom: 20px;">
+                Projetos
+            </h3>
+            <div style="overflow: hidden; width: 100%; height: 250px; border-radius: 8px; position: relative;">
+                <div id="carousel" style="display: flex; transition: transform 0.5s ease; width: 100%; height: 250px;">
+                    <img src="air-flow.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
+                    <img src="thermodynamics.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
+                    <img src="entropy.png" style="min-width: 100%; height: 100%; object-fit: contain"/>
+                </div>
+                <div id="dots" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px;">
+                    <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
+                    </span>
+                    <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
+                    </span>
+                    <span class="dot" style="width: 10px; height: 10px; background: #ccc; border-radius: 50%; display: block;">
+                    </span>
+                </div>
+            </div>
+        </div>
    </div>
-   
+
    <script>
     const carousel = document.getElementById('carousel');
           const dots = document.querySelectorAll('.dot');
@@ -107,5 +115,7 @@
           }, 4000);
    </script>
   </main>
+
+<footer>&copy; 2025 ATHENA Eng.Lab</footer>
  </body>
 </html>
